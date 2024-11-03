@@ -55,24 +55,15 @@ The primary source of data used is Data Sale.csv and this is an open source data
 from [dbo]
 Group by region;
 
-
 SELECT product, sum([Total_Sales]) AS Total_Sales
 FROM [dbo].[LITA PROJECT SALES DATA]
 GROUP BY product
 ORDER BY SUM([Total_Sales]) DESC;
 
-SELECT Region , COUNT([Quantity]) AS Count_Sales
-FROM [dbo].[LITA PROJECT SALES DATA]
-GROUP BY Region
-ORDER BY COUNT([Quantity])
-
 SELECT TOP 1 PRODUCT, SUM(quantity*[UnitPrice]) AS Total_Revenue
 FROM [dbo].[LITA PROJECT SALES DATA]
 GROUP BY product
 
-SELECT CustomerID
-FROM [dbo].[LITA PROJECT CUSTOMER DATA]
-WHERE datediff(month, subscriptionstart, subscriptionend)<=6
 
 
 
