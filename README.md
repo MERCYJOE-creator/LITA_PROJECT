@@ -70,10 +70,10 @@ SELECT TOP 1 PRODUCT, SUM(quantity*[UnitPrice]) AS Total_Revenue
 FROM [dbo].[LITA PROJECT SALES DATA]
 GROUP BY product
 
- Customers whoc cancelled their subscription within 6mnths----
 SELECT CustomerID
 FROM [dbo].[LITA PROJECT CUSTOMER DATA]
 WHERE datediff(month, subscriptionstart, subscriptionend)<=6
+
 
 
 
