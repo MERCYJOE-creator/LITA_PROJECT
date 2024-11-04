@@ -1,18 +1,18 @@
 # LITA_PROJECT
----
+
 ### Project Title: Sales Performance Analysis for A Retail Store
----
+
 ### Project Overview 
----
+
 This project aims to analyze sales data for retail store to identify trends, patterns, and areas for improvement. The analysis will provide insights into sales performance, customer behavior, and product preferences, enabling data-driven decisions to drive business growth.
 
 ### Data Source
----
+
 The primary source of data used is Data Sale.csv and this is an open source data that can be freely downloaded from an open source online such ad Kaggle or any other data repository site.
 
 ### Tools Used
----
-- Microsof Excel [Download here] (https://www.microsoft.com)
+
+- Microsoft Excel [Download here] (https://www.microsoft.com)
   1. For Data Cleaning
   2. For Data Analysis
   3. Data Visualization
@@ -26,7 +26,7 @@ The primary source of data used is Data Sale.csv and this is an open source data
 - GitHub for Potfolio Building
 
 ### Data Cleaning and Preparation
----
+
   In the inital phase of the Dat Cleaning and Preparation, we perform the following action
   - Data loading and inspection.
   - Handling missing values.
@@ -36,7 +36,7 @@ The primary source of data used is Data Sale.csv and this is an open source data
   - Data Cleaning and formatting.
 
 ### Exploratory Data Analysis
----
+
   EDA involved the exploring of the data to answer some questions about the Data such as
   - Retrieve the total sales for each category.
   - Find the number of sales transactions in each region.
@@ -48,8 +48,8 @@ The primary source of data used is Data Sale.csv and this is an open source data
   -Identify products with no sales in the last quarter.
 
 ### Data Analysis
----
   This is where we include some basics lines of codes or queries or even some DAX functions during our analysis.
+
   ```SQL
      Select  region, count(distinct Customerid) as total_customers 
 from [dbo]
@@ -63,11 +63,12 @@ ORDER BY SUM([Total_Sales]) DESC;
 SELECT TOP 1 PRODUCT, SUM(quantity*[UnitPrice]) AS Total_Revenue
 FROM [dbo].[LITA PROJECT SALES DATA]
 GROUP BY product
-
-
 ```
-### Data Visualization
----
 
-![Sales Data](https://github.com/user-attachments/assets/e59e1fac-6d22-412b-b2ca-6a881079fe66)
+
+### Data Visualization
+
+
+
+![Sales Data](https://github.com/user-attachments/assets/f2a0c763-f0e5-433e-950f-a36179e38147)
 
