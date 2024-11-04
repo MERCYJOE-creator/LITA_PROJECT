@@ -69,5 +69,5 @@ GROUP BY product
 ### Data Visualization
 ---
 
-![SD PBI](https://github.com/user-attachments/assets/c9973e68-a936-4967-8b80-597f5c769a3b)
+![Sales Data](https://github.com/user-attachments/assets/e59e1fac-6d22-412b-b2ca-6a881079fe66)
 
