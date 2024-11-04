@@ -65,23 +65,9 @@ FROM [dbo].[LITA PROJECT SALES DATA]
 GROUP BY product
 
 
+```
+### Data Visualization
+---
 
-
-
-
-  
-     
- 
- 
-
-
-
-
-
-
-  
-     
-
-  
-  
+![SD PBI](https://github.com/user-attachments/assets/c9973e68-a936-4967-8b80-597f5c769a3b)
 
