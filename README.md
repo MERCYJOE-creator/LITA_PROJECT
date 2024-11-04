@@ -47,6 +47,29 @@ The primary source of data used is Data Sale.csv and this is an open source data
   - To calculate the percentage of total sales contributed by each region.
   -Identify products with no sales in the last quarter.
 
+
+
+# SQL
+
+```
+SELECT product, sum([Total_Sales]) AS Total_Sales
+FROM [dbo].[RD SALES DATA]
+GROUP BY product
+ORDER BY SUM([Total_Sales]) DESC;
+```
+
+
+![1](https://github.com/user-attachments/assets/e7b8fca9-f7b3-405f-b0d1-433ad5c3a8b1)
+
+
+
+   
+
+   
+
+
+
+
 ### Data Analysis
   This is where we include some basics lines of codes or queries or even some DAX functions during our analysis.
 
@@ -70,5 +93,9 @@ GROUP BY product
 
 
 
+
+
 ![Sales Data](https://github.com/user-attachments/assets/f2a0c763-f0e5-433e-950f-a36179e38147)
+
+
 
